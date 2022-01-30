@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 48px 96px 0px 96px;
+    scroll-behavior: smooth;
+}
+
+/* Navbar CSS */
+
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: black;
+}
+.logo img {
+    width: 30%;
+}
+.navbar-brand{
+    font-size: 32px;
+}
+
+.navbar-dark .navbar-toggler{
+    color: black;
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image: none;
+}
+
+#burger{
+    font-size: 29px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    margin-left: 46px;
+    font-size: 20px;
+}
+
+#contact{
+    background: linear-gradient(to right, #ff0099, #493240);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#contact:hover{
+    background: black;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: unset;
+}
+
+.btn {
+    color: #fcfcfd;
+    background: linear-gradient(135deg, #6699FF 0%, #FF3366 100%);
+    border-radius: 15px;
+}
+
+/* Section1 */
+
+.section1 {
+    font-size: 2px;
+}
+
+.section1 img {
+    width: 100%;
+}
+
+.paraInit {
+    margin-top: 75px;
+}
+
+.paraInit h1 {
+    font-size: 36em;
+}
+
+.grad1{
+   background: linear-gradient(to right, #b92b27, #1565c0);
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+}
+.grad2{
+    background:linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+ }
+
+.initOne {
+    font-size: 15em;
+}
+
+.initTwo {
+    font-size: 10em;
+}
+
+.paraInit .btn {
+    padding: 20px;
+    margin-top: 16px;
+    font-size: 11em;
+}
+
+/* Section2 */
+
+.section2 .row {
+    flex-wrap: nowrap;
+}
+
+.section2 {
+    font-size: 2px;
+    margin-top: 110px;
+}
+
+.section2 .card {
+    background: #f1f1f0;
+    box-shadow: 2px 2px 5px black;
+}
+
+#orangeCard1 {
+    margin-right: 26px;
+}
+
+.card img {
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    font-size: 18em;
+    background: linear-gradient(to right, #ff0084, #33001b);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.card-body {
+    margin-left: 36px;
+    margin-top: 34px;
+}
+
+.orcardPara1 {
+    font-size: 10em;
+}
+
+.card-text {
+    font-size: 9em;
+}
+
+.section2 .btn {
+    width: 133px;
+    height: 62px;
+    border-radius: 10px;
+    padding: 16px 0px;
+    font-size: 19px;
+    margin-top: 16px;
+    margin-bottom: 38px;
+}
+
+.pc {
+    display: block;
+}
+
+/* Traction */
+
+.traction {
+    margin-top: 136px;
+    font-size: 2px;
+    text-align: center;
+}
+
+.traction h1 {
+    font-size: 24em;
+}
+
+.orangeSpan {
+    background:linear-gradient(135deg,#D6FF7F 0%, #00B3CC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.tractPara {
+    font-size: 15em;
+}
+
+.phone {
+    display: none;
+}
+
+/* Section3 */
+
+.section3 {
+    font-size: 2px;
+}
+
+.servicecard {
+    margin-top: 32em;
+    background: #f1f1f0;
+    box-shadow: 2px 2px 16px black;
+    border-radius: 5px;
+}
+
+.servicecardImg img {
+    width: 85%;
+    margin-top: 40%;
+}
+
+.servicecard-body {
+    margin-top: 43em;
+}
+
+.servicecard-body h5 {
+    font-size: 24em;
+}
+
+.servicecard-text {
+    font-size: 18em;
+}
+
+.content h4 {
+    margin-top: 48px;
+    font-size: 15em;
+}
+
+.skills {
+    font-size: 10em;
+}
+
+.servicecard-body .btn {
+    margin-top: 40px;
+    margin-bottom: 66px;
+    padding: 16px 20px;
+    width: 234px;
+    height: 62px;
+    font-size: 9em;
+}
+
+/* Hand through phone */
+
+.handThruph {
+    margin-top: 194px;
+    display: flex;
+    font-size: 2px;
+}
+
+.handThruph .row {
+    flex-wrap: nowrap;
+}
+
+.headAche {
+    margin-left: 40em;
+}
+
+.headAche h5, .ache2 {
+    font-size: 11em;
+}
+
+.ache1 {
+    font-size: 19em;
+}
+
+/* Section4 */
+
+.section4 {
+    font-size: 2px;
+    margin-top: 80px;
+}
+
+.section4 h5 {
+    font-size: 24em;
+    text-align: center;
+}
+
+.section4 .row {
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+.blackCard {
+    background: #f1f1f0;
+    box-shadow: 2px 2px 16px black;
+    border-radius: 5px;
+    height: auto;
+    width: 30vw;
+}
+
+.blackCard .btn {
+    width: 80px;
+    height: 80px;
+    font-size: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+}
+
+.blackCard-body {
+    margin-top: 6em;
+    margin-bottom: 18em;
+}
+
+.blackCard-body h5 {
+    font-size: 12em;
+    text-align: center;
+}
+
+ .blackCard-text {
+    font-size: 9em;
+    text-align: center;
+}
+
+/* Last Section */
+.lastSection {
+    font-size: 2px;
+    margin-top: 150px;
+}
+
+.lastSection h5 {
+    font-size: 24em;
+    text-align: center;
+}
+
+.lastSection h6 {
+    font-size: 12em;
+    text-align: center;
+}
+
+.lastSection .btn {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    display: block;
+    width: 285px;
+    height: 64px;
+    border-radius: 15px;
+    font-size: 12em;
+    padding: 13px;
+}
+
+/* Footer */
+footer {
+    background: #F2EDE8;
+    font-size: 2px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.my-5 {
+    margin-bottom: 0px !important;
+    margin-top: 140px !important;
+}
+
+.socials {
+    padding: 20px 0px;
+    font-size: 15em;
+}
+
+.socials a {
+    color: black;
+    margin: 0px 25px;
+}
+
+.fLogo {
+    margin-bottom: 8em;
+    padding: 5em 0em;
+}
+
+.fLogo a{
+    text-decoration: none;
+    color: black;
+    font-size: 14em ;
+}
+
+footer hr{
+    color: black;
+}
+
+.copyRight {
+    font-size: 8em;
+    color: black;
+}
+
+#floatingButton{
+    display: none;
+    position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:30px;
+    background: linear-gradient(to right, #000000, #434343);
+	color:#fcfcfd;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.fa-moon, .fa-sun{
+    margin-top: 9px;
+    font-size: 22px;
+}
