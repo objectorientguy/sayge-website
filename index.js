@@ -1,5 +1,5 @@
 //Checks whther the device is a mobile or not
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+var isMobile = /android|iphone|kindle|ipad/i.test(navigator.userAgent);
 Array.from(document.getElementsByClassName('clickTocall')).forEach((element)=>{
 	if (isMobile) {
 		element.href = "tel:8956033119";
