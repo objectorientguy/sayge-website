@@ -1,19 +1,29 @@
-//Checks whther the device is a mobile or not
+//Checks whether the device is a mobile or not
 var isMobile = /android|iphone|kindle|ipad/i.test(navigator.userAgent);
-Array.from(document.getElementsByClassName('clickTocall')).forEach((element)=>{
+Array.from(document.getElementsByClassName('clickTocall')).forEach((element) => {
 	if (isMobile) {
 		element.href = "tel:8956033119";
-	} else {
+	}
+	else {
 		element.href = "mailto:saygeinfo@gmail.com?subject=Hey! I have a requirement.";
 	}
 })
- 
+
+// Automatically closes the hamburger menu on click event
+var burgerMenu = document.getElementById('navbarNav');
+Array.from(document.getElementsByClassName('nav-link')).forEach((element) => {
+	element.addEventListener('click', () => {
+		console.log('clicked');
+		burgerMenu.classList.remove('show');
+	})
+})
+
 
 // Dark Theme <--> Light Theme
 var isDark = false;
+var burger = document.getElementById('burger');
 var themeChanger = document.getElementById('floatingIcon');
 var themeButton = document.getElementById('floatingButton');
-var burger = document.getElementById('burger');
 var contact = document.getElementById('contact');
 const toggleTheme = () => {
 	if (isDark) {
@@ -127,7 +137,7 @@ const makeThemelight = () => {
 	// contact.style.webkitTextFillColor = 'transparent';
 	// contact.style.webkitBackgroundClip = 'text';
 	// contact.addEventListener('mousenter', hoverBlack('contact'));
-	
+
 	// White text<-->Black text
 	Array.from(document.getElementsByClassName('white')).forEach((whiteText) => {
 		whiteText.style.color = 'black';
