@@ -13,7 +13,6 @@ Array.from(document.getElementsByClassName('clickTocall')).forEach((element) => 
 var burgerMenu = document.getElementById('navbarNav');
 Array.from(document.getElementsByClassName('nav-link')).forEach((element) => {
 	element.addEventListener('click', () => {
-		console.log('clicked');
 		burgerMenu.classList.remove('show');
 	})
 })
